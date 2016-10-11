@@ -7,9 +7,9 @@ import com.badlogic.gdx.Screen;
 //reescalar, pausar, resumir...) menos con dispose, para liberar los recursos hay que llamar a dispose manualmente
 
 public class AbstractScreen implements Screen { // Pantalla abstracta de la cual heredan las demas pantallas.
-	protected Main main; // Necesario en el futuro para pasar de una pantalla a otra.
+	protected MontevideandoGame main; // Necesario en el futuro para pasar de una pantalla a otra.
 
-	public AbstractScreen(Main main) {
+	public AbstractScreen(MontevideandoGame main) {
 		this.main = main;
 	}
 

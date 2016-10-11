@@ -26,8 +26,8 @@ public class MontevideandoGame extends Game {
 		font = new BitmapFont();
 		Gdx.input.setCatchBackKey(true); // Bloquea el boton "Back" de android para que se tenga que salir del juego usando el boton "Exit"
 		Screens.juego = this;
-		Screens.GAMESCREEN = new GameScreen(this); // Se inicializan las pantallas
-		Screens.MAINSCREEN = new MainScreen(this);
+		Screens.GAMESCREEN = new Nivel(); // Se inicializan las pantallas
+		Screens.MAINSCREEN = new MainScreen(null);
 		setScreen(Screens.MAINSCREEN); // Establecemos MAINSCREEN como nuestra pantalla principal
 	}
 	
