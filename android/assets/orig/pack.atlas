@@ -1,0 +1,55 @@
+
+pack.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+FondoTile2
+  rotate: false
+  xy: 2, 2
+  size: 600, 1000
+  orig: 600, 1000
+  offset: 0, 0
+  index: -1
+arbol
+  rotate: false
+  xy: 604, 409
+  size: 370, 351
+  orig: 370, 351
+  offset: 0, 0
+  index: -1
+auto-amarillo
+  rotate: false
+  xy: 976, 586
+  size: 80, 174
+  orig: 80, 174
+  offset: 0, 0
+  index: -1
+auto-azul
+  rotate: false
+  xy: 1117, 830
+  size: 85, 172
+  orig: 85, 172
+  offset: 0, 0
+  index: -1
+auto-verde
+  rotate: false
+  xy: 976, 409
+  size: 79, 175
+  orig: 79, 175
+  offset: 0, 0
+  index: -1
+basurero
+  rotate: false
+  xy: 604, 762
+  size: 511, 240
+  orig: 511, 240
+  offset: 0, 0
+  index: -1
+pozos
+  rotate: false
+  xy: 604, 157
+  size: 340, 250
+  orig: 340, 250
+  offset: 0, 0
+  index: -1
