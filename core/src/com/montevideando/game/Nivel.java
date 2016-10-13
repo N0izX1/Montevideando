@@ -6,8 +6,12 @@ import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.utils.viewport.FitViewport;
 import com.uwsoft.editor.renderer.SceneLoader;
 
-public class Nivel implements Screen {
+public class Nivel extends AbstractScreen {
 	private SceneLoader sceneLoader; 
+	
+	public Nivel(MontevideandoGame main) {
+    	super(main);
+   }
 	
 	@Override
 	public void show () {
