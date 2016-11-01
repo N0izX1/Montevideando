@@ -27,8 +27,9 @@ public class MainScreen extends AbstractScreen { // Pantalla del menú principal
 		play = new ButtonPlay(centroX, centroY + 50);
 	}
 	
+	// Método que permite actualizar los valores del juego y dibujar el juego para que lo vea el usuario.
 	@Override
-	public void render(float delta) { // Método que permite actualizar los valores del juego y dibujar el juego para que lo vea el usuario.
+	public void render(float delta) { 
 		//Gdx es una clase con la que podemos acceder a variables que hacen referencia a todos los subsitemas, como son graficos, audio, ficheros, entrada y aplicaciones
 		// gl es una variable de tipo GL, nos permite acceder a metodos de GL10, GL11 y GL20
 		//En este caso glClearColor es un bucle (game loop) que establecera el fondo de la pantalla negro (0,0,0) con transparencia 1
