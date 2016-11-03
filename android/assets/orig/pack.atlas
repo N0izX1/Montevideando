@@ -1,55 +1,146 @@
 
 pack.png
-size: 2048,1024
+size: 4096,1024
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 FondoTile2
   rotate: false
   xy: 2, 2
-  size: 600, 1000
-  orig: 600, 1000
+  size: 601, 1000
+  orig: 601, 1000
   offset: 0, 0
   index: -1
 arbol
   rotate: false
-  xy: 604, 409
+  xy: 2652, 651
   size: 370, 351
   orig: 370, 351
   offset: 0, 0
   index: -1
 auto-amarillo
   rotate: false
-  xy: 976, 586
+  xy: 3570, 828
   size: 80, 174
   orig: 80, 174
   offset: 0, 0
   index: -1
 auto-azul
   rotate: false
-  xy: 1117, 830
+  xy: 1720, 328
   size: 85, 172
   orig: 85, 172
   offset: 0, 0
   index: -1
 auto-verde
   rotate: false
-  xy: 976, 409
+  xy: 3570, 651
   size: 79, 175
   orig: 79, 175
   offset: 0, 0
   index: -1
+autoos
+  rotate: false
+  xy: 3366, 259
+  size: 202, 743
+  orig: 202, 743
+  offset: 0, 0
+  index: -1
+b-amarilla
+  rotate: false
+  xy: 1645, 502
+  size: 518, 500
+  orig: 518, 500
+  offset: 0, 0
+  index: -1
+b-gris
+  rotate: false
+  xy: 1125, 502
+  size: 518, 500
+  orig: 518, 500
+  offset: 0, 0
+  index: -1
+b-rojo
+  rotate: false
+  xy: 605, 502
+  size: 518, 500
+  orig: 518, 500
+  offset: 0, 0
+  index: -1
 basurero
   rotate: false
-  xy: 604, 762
+  xy: 1207, 260
   size: 511, 240
   orig: 511, 240
   offset: 0, 0
   index: -1
+calle
+  rotate: false
+  xy: 3024, 717
+  size: 33, 33
+  orig: 33, 33
+  offset: 0, 0
+  index: -1
+crucepeatonal
+  rotate: false
+  xy: 2165, 677
+  size: 485, 325
+  orig: 485, 325
+  offset: 0, 0
+  index: -1
+crucepeatonalbig
+  rotate: false
+  xy: 2165, 610
+  size: 263, 65
+  orig: 263, 65
+  offset: 0, 0
+  index: -1
+discapacitados
+  rotate: false
+  xy: 1207, 216
+  size: 65, 42
+  orig: 65, 42
+  offset: 0, 0
+  index: -1
+esquinas
+  rotate: false
+  xy: 605, 168
+  size: 600, 332
+  orig: 600, 332
+  offset: 0, 0
+  index: -1
+lomodeburrookk
+  rotate: false
+  xy: 605, 20
+  size: 332, 146
+  orig: 332, 146
+  offset: 0, 0
+  index: -1
+niidea
+  rotate: false
+  xy: 939, 41
+  size: 132, 125
+  orig: 132, 125
+  offset: 0, 0
+  index: -1
 pozos
   rotate: false
-  xy: 604, 157
+  xy: 3024, 752
   size: 340, 250
   orig: 340, 250
+  offset: 0, 0
+  index: -1
+small
+  rotate: false
+  xy: 1807, 384
+  size: 65, 116
+  orig: 65, 116
+  offset: 0, 0
+  index: -1
+zebra
+  rotate: false
+  xy: 1073, 56
+  size: 115, 110
+  orig: 115, 110
   offset: 0, 0
   index: -1

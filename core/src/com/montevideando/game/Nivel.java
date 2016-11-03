@@ -20,11 +20,20 @@ public class Nivel extends AbstractScreen {
 	
 	@Override
 	public void show () {
-		viewPort = new FitViewport(200,160);
+		viewPort = new FitViewport(200,170);
 		sceneLoader = new SceneLoader();
 		sceneLoader.loadScene("MainScene",viewPort);
 		
 		root = new ItemWrapper(sceneLoader.getRoot());
+		
+
+		
+		root.getChild("arbol");
+		
+		/*
+		sceneLoader.addComponentsByTagName(arbol, );
+		*/
+
 				
 	}
 
@@ -36,11 +45,12 @@ public class Nivel extends AbstractScreen {
 		float y2 = viewPort.getWorldHeight() / 2 + y;
 		
 		
-		if (y2 > 250) {
+		if (y2 > 2000) {
 			this.dispose();
 		} else {
 			Gdx.gl.glClearColor(1, 0, 0, 1);
 			float speedCamera = Gdx.graphics.getDeltaTime()*5f; 
+
 			Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
 			
 			

@@ -1,0 +1,27 @@
+
+semaforoPack.png
+size: 256,256
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+semaforo1
+  rotate: false
+  xy: 50, 117
+  size: 46, 113
+  orig: 46, 113
+  offset: 0, 0
+  index: -1
+semaforo2
+  rotate: false
+  xy: 2, 2
+  size: 46, 113
+  orig: 46, 113
+  offset: 0, 0
+  index: -1
+semaforo3
+  rotate: false
+  xy: 2, 117
+  size: 46, 113
+  orig: 46, 113
+  offset: 0, 0
+  index: -1

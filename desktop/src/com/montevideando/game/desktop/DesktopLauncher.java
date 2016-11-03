@@ -7,8 +7,8 @@ import com.montevideando.game.MontevideandoGame;
 public class DesktopLauncher {
 	public static void main (String[] arg) {
 		LwjglApplicationConfiguration config = new LwjglApplicationConfiguration();
-		config.width = 800;
-		config.height = 600;
+		config.width = 700;
+		config.height = 595;
 		new LwjglApplication(new MontevideandoGame(), config);
 	}
 }
