@@ -1,145 +1,194 @@
 
 pack.png
-size: 4096,1024
+size: 2048,1024
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 FondoTile2
   rotate: false
-  xy: 2, 2
+  xy: 2, 12
   size: 601, 1000
   orig: 601, 1000
   offset: 0, 0
   index: -1
+Manzana
+  rotate: false
+  xy: 1898, 689
+  size: 11, 19
+  orig: 11, 19
+  offset: 0, 0
+  index: -1
 arbol
   rotate: false
-  xy: 2652, 651
+  xy: 809, 327
+  size: 370, 351
+  orig: 370, 351
+  offset: 0, 0
+  index: -1
+arboll
+  rotate: false
+  xy: 1181, 92
   size: 370, 351
   orig: 370, 351
   offset: 0, 0
   index: -1
 auto-amarillo
   rotate: false
-  xy: 3570, 828
+  xy: 1842, 95
   size: 80, 174
   orig: 80, 174
   offset: 0, 0
   index: -1
 auto-azul
   rotate: false
-  xy: 1720, 328
+  xy: 1887, 271
   size: 85, 172
   orig: 85, 172
   offset: 0, 0
   index: -1
 auto-verde
   rotate: false
-  xy: 3570, 651
+  xy: 1181, 503
   size: 79, 175
   orig: 79, 175
   offset: 0, 0
   index: -1
+autoamarillo
+  rotate: false
+  xy: 1924, 536
+  size: 85, 172
+  orig: 85, 172
+  offset: 0, 0
+  index: -1
 autoos
   rotate: false
-  xy: 3366, 259
+  xy: 605, 269
   size: 202, 743
   orig: 202, 743
   offset: 0, 0
   index: -1
-b-amarilla
+autorojo
   rotate: false
-  xy: 1645, 502
-  size: 518, 500
-  orig: 518, 500
+  xy: 686, 95
+  size: 85, 172
+  orig: 85, 172
   offset: 0, 0
   index: -1
-b-gris
+basura
   rotate: false
-  xy: 1125, 502
-  size: 518, 500
-  orig: 518, 500
-  offset: 0, 0
-  index: -1
-b-rojo
-  rotate: false
-  xy: 605, 502
-  size: 518, 500
-  orig: 518, 500
+  xy: 1553, 119
+  size: 287, 176
+  orig: 287, 176
   offset: 0, 0
   index: -1
 basurero
   rotate: false
-  xy: 1207, 260
+  xy: 1411, 445
   size: 511, 240
   orig: 511, 240
   offset: 0, 0
   index: -1
+bolsa
+  rotate: false
+  xy: 605, 25
+  size: 45, 65
+  orig: 45, 65
+  offset: 0, 0
+  index: -1
 calle
   rotate: false
-  xy: 3024, 717
+  xy: 753, 60
   size: 33, 33
   orig: 33, 33
   offset: 0, 0
   index: -1
+camceleste
+  rotate: false
+  xy: 1898, 710
+  size: 79, 175
+  orig: 79, 175
+  offset: 0, 0
+  index: -1
+cammarron
+  rotate: false
+  xy: 605, 92
+  size: 79, 175
+  orig: 79, 175
+  offset: 0, 0
+  index: -1
+cebralong
+  rotate: false
+  xy: 1553, 2
+  size: 282, 115
+  orig: 282, 115
+  offset: 0, 0
+  index: -1
 crucepeatonal
   rotate: false
-  xy: 2165, 677
+  xy: 1411, 687
   size: 485, 325
   orig: 485, 325
   offset: 0, 0
   index: -1
 crucepeatonalbig
   rotate: false
-  xy: 2165, 610
+  xy: 1151, 25
   size: 263, 65
   orig: 263, 65
   offset: 0, 0
   index: -1
 discapacitados
   rotate: false
-  xy: 1207, 216
+  xy: 686, 51
   size: 65, 42
   orig: 65, 42
   offset: 0, 0
   index: -1
 esquinas
   rotate: false
-  xy: 605, 168
+  xy: 809, 680
   size: 600, 332
   orig: 600, 332
   offset: 0, 0
   index: -1
 lomodeburrookk
   rotate: false
-  xy: 605, 20
+  xy: 1553, 297
   size: 332, 146
   orig: 332, 146
   offset: 0, 0
   index: -1
 niidea
   rotate: false
-  xy: 939, 41
+  xy: 1898, 887
   size: 132, 125
   orig: 132, 125
   offset: 0, 0
   index: -1
+papel
+  rotate: false
+  xy: 1911, 698
+  size: 10, 10
+  orig: 10, 10
+  offset: 0, 0
+  index: -1
 pozos
   rotate: false
-  xy: 3024, 752
+  xy: 809, 75
   size: 340, 250
   orig: 340, 250
   offset: 0, 0
   index: -1
 small
   rotate: false
-  xy: 1807, 384
+  xy: 1262, 450
   size: 65, 116
   orig: 65, 116
   offset: 0, 0
   index: -1
 zebra
   rotate: false
-  xy: 1073, 56
+  xy: 1262, 568
   size: 115, 110
   orig: 115, 110
   offset: 0, 0
