@@ -97,7 +97,7 @@ bolsa
   index: -1
 calle
   rotate: false
-  xy: 753, 60
+  xy: 719, 26
   size: 33, 33
   orig: 33, 33
   offset: 0, 0
@@ -139,7 +139,7 @@ crucepeatonalbig
   index: -1
 discapacitados
   rotate: false
-  xy: 686, 51
+  xy: 652, 17
   size: 65, 42
   orig: 65, 42
   offset: 0, 0
@@ -177,6 +177,20 @@ pozos
   xy: 809, 75
   size: 340, 250
   orig: 340, 250
+  offset: 0, 0
+  index: -1
+rect3336
+  rotate: false
+  xy: 756, 59
+  size: 34, 34
+  orig: 34, 34
+  offset: 0, 0
+  index: -1
+rect3338
+  rotate: false
+  xy: 686, 61
+  size: 68, 32
+  orig: 68, 32
   offset: 0, 0
   index: -1
 small
