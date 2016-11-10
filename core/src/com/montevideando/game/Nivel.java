@@ -2,16 +2,20 @@ package com.montevideando.game;
 
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.audio.Music;
+import com.badlogic.gdx.graphics.Camera;
 import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.graphics.OrthographicCamera;
 import com.badlogic.gdx.utils.viewport.FitViewport;
+import com.badlogic.gdx.utils.viewport.Viewport;
 import com.uwsoft.editor.renderer.SceneLoader;
 import com.uwsoft.editor.renderer.utils.ItemWrapper;
 
 public class Nivel extends AbstractScreen {
 	private SceneLoader sceneLoader; 
 	
-	FitViewport viewPort;
+	 private Viewport viewport;
+	 private Camera camera;
+	
 	ItemWrapper root;
 	int y = 0;
 	
@@ -21,18 +25,20 @@ public class Nivel extends AbstractScreen {
 	
 	@Override
 	public void show () {
-		viewPort = new FitViewport(200,170);
+        camera = new OrthographicCamera();
+        viewport = new FitViewport(270, 300, camera);
 		sceneLoader = new SceneLoader();
-		sceneLoader.loadScene("MainScene",viewPort);
-		Music music = Gdx.audio.newMusic(Gdx.files.internal("music.ogg"));
+		sceneLoader.loadScene("MainScene", viewport);
+		Music music = Gdx.audio.newMusic(Gdx.files.internal("music.ogg")); 
 		
 		root = new ItemWrapper(sceneLoader.getRoot());
+		music.setLooping(true);
 		music.play();
 
-		
+		/*
 		root.getChild("arbol");
 		
-		/*
+		
 		sceneLoader.addComponentsByTagName(arbol, );
 		*/
 
@@ -43,8 +49,8 @@ public class Nivel extends AbstractScreen {
 	public void render(float delta) {
 		
 		y++;
-		float x = viewPort.getWorldWidth() / 2;
-		float y2 = viewPort.getWorldHeight() / 2 + y;
+		float x = viewport.getWorldWidth() / 2;
+		float y2 = viewport.getWorldHeight() / 2 + y;
 		
 		
 		if (y2 > 2000) {
@@ -59,7 +65,7 @@ public class Nivel extends AbstractScreen {
 			sceneLoader.getEngine().update(speedCamera);
 			
 			
-			((OrthographicCamera) viewPort.getCamera()).position.set(x, y2, 0);
+			((OrthographicCamera) viewport.getCamera()).position.set(x, y2, 0);
 
 			try {
 				Thread.sleep((long) speedCamera);
@@ -68,6 +74,8 @@ public class Nivel extends AbstractScreen {
 				e.printStackTrace();
 			}
 			System.out.println("x: " + x + " y: " + y2);
+			
+			
 		}
 	}
 
