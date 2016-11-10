@@ -47,7 +47,7 @@ public class Nivel extends AbstractScreen {
 		float y2 = viewPort.getWorldHeight() / 2 + y;
 		
 		
-		if (y2 > 2000) {
+		if (y2 > 4300) {
 			this.dispose();
 		} else {
 			Gdx.gl.glClearColor(1, 0, 0, 1);
