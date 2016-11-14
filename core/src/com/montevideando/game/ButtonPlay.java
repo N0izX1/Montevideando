@@ -12,6 +12,6 @@ public class ButtonPlay extends Button { // Botón que permitira iniciar el Pong
 
 	@Override
 	protected void funcionamiento() {
-		Screens.juego.setScreen(Screens.GAMESCREEN); // Se asigna la pantalla de juego
+		ScreenManager.getInstance().showScreen( Screens.NIVEL1 );
 	}
 }

@@ -3,11 +3,14 @@ package com.montevideando.game;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
+import com.badlogic.gdx.graphics.g2d.TextureRegion;
 import com.badlogic.gdx.math.Rectangle;
+import com.badlogic.gdx.scenes.scene2d.ui.ImageButton;
+import com.badlogic.gdx.scenes.scene2d.utils.TextureRegionDrawable;
 
 
-public abstract class Button { // Clase abstracta que representa un botón cuyo comportamiento sera diferente dependiendo de los distintos tipos de botones que se tengan
-	protected Texture texture; // Textura del botón. Se asigna en el hijo
+public abstract class Button  { // Clase abstracta que representa un botón cuyo comportamiento sera diferente dependiendo de los distintos tipos de botones que se tengan
+	protected static Texture texture; // Textura del botón. Se asigna en el hijo
 	protected Rectangle bordes; // El rectangulo que establece la posición, altura y anchura del botón
 	
 	protected float xMinima; // Estos atributos sirven para poner las coordenadas para pulsar el botón.
@@ -26,6 +29,10 @@ public abstract class Button { // Clase abstracta que representa un botón cuyo 
 		yMinima = Gdx.graphics.getHeight() - (bordes.y + bordes.height);
 	}
 
+	public static ImageButton createButton() {
+		return	new ImageButton(new TextureRegionDrawable(new TextureRegion(texture) ) );
+	}
+	
 	public void draw(SpriteBatch batch) {
 		batch.draw(texture, bordes.x, bordes.y, bordes.width, bordes.height);
 	}
@@ -49,5 +56,9 @@ public abstract class Button { // Clase abstracta que representa un botón cuyo 
 
 	public void setBordes(Rectangle bordes) {
 		this.bordes = bordes;
+	}
+	
+	public void dispose(){
+		this.texture.dispose();
 	}
 }
