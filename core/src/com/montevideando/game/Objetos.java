@@ -28,7 +28,7 @@ public class Objetos implements IScript {
 
 	@Override
 	public void act(float delta) {
-		// Reaccion del objeto
+	
 		
 	}
 
