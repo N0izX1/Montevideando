@@ -1,11 +1,13 @@
 package com.montevideando.game;
 
+import com.badlogic.ashley.core.Entity;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.audio.Music;
 import com.badlogic.gdx.graphics.Camera;
 import com.badlogic.gdx.graphics.OrthographicCamera;
 import com.badlogic.gdx.utils.viewport.FillViewport;
 import com.badlogic.gdx.utils.viewport.Viewport;
+import com.uwsoft.editor.renderer.components.MainItemComponent;
 import com.uwsoft.editor.renderer.components.additional.ButtonComponent;
 import com.uwsoft.editor.renderer.utils.ItemWrapper;
 
@@ -28,28 +30,79 @@ public class Nivel extends AbstractScreen {
 		music.play();
 
 		rootItem = new ItemWrapper(ScreenManager.getInstance().getSceneLoader().getRoot());
-//
-//		// all entities with button tag now have ButtonComponent
+		
+		
 		ScreenManager.getInstance().getSceneLoader().addComponentsByTagName("button", ButtonComponent.class);
-//
-//		// retrieve particular button, and it's component, and add listener to it.
-		ButtonComponent buttonComponent = rootItem.getChild("basura1").getEntity()
-				.getComponent(ButtonComponent.class);
+		
+		//Objetos rotos
+		
+		//Basura
+		final Entity entityBasura1 = rootItem.getChild("basura1").getEntity();
+		ButtonComponent buttonComponent = entityBasura1.getComponent(ButtonComponent.class);
+		
 		buttonComponent.addListener(new ButtonComponent.ButtonListener() {
+	
 			public void touchUp() {
-				System.out.println("UP");
+
 			}
 
 			public void touchDown() {
-				System.out.println("DOWND");
+				
 			}
 
 			public void clicked() {
-				System.out.println("CLICK");
+				System.out.println("DESTROY");
+				MainItemComponent main = entityBasura1.getComponent(MainItemComponent.class);
+				main.visible = false;
 			}
 		});
+		
+		//Arbol
+		final Entity entityArbol1 = rootItem.getChild("arbol1").getEntity();
+		ButtonComponent arbol1 = entityArbol1.getComponent(ButtonComponent.class);
+		
+		arbol1.addListener(new ButtonComponent.ButtonListener() {
+	
+			public void touchUp() {
+
+			}
+
+			public void touchDown() {
+				
+			}
+
+			public void clicked() {
+				System.out.println("DESTROY");
+				MainItemComponent main = entityArbol1.getComponent(MainItemComponent.class);
+				main.visible = false;
+			}
+		});
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 	}
 
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	@Override
 	public void render(float delta) {
 
