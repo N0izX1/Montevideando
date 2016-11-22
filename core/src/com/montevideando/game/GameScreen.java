@@ -11,9 +11,9 @@ public class GameScreen extends AbstractScreen {
     	
     	@Override
     	public void show () {
-    		FitViewport viewPort = new FitViewport(200,160);
-    		sceneLoader = new SceneLoader();
-    		sceneLoader.loadScene("MainScene",viewPort);
+    		//FitViewport viewPort = new FitViewport(200,300);
+    		//sceneLoader = new SceneLoader();
+    		//sceneLoader.loadScene("MainScene",viewPort);
     				
     	}
 

@@ -79,29 +79,9 @@ public class Nivel extends AbstractScreen {
 		});
 		
 		
-		
-		
-		
-		
-		
-		
-		
-		
+
 	}
 
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 	
 	@Override
 	public void render(float delta) {
