@@ -51,17 +51,17 @@ public class Nivel extends AbstractScreen {
 			}
 
 			public void clicked() {
-				System.out.println("DESTROY");
+			
 				MainItemComponent main = entityBasura1.getComponent(MainItemComponent.class);
 				main.visible = false;
 			}
 		});
 		
-		//Arbol
-		final Entity entityArbol1 = rootItem.getChild("arbol1").getEntity();
-		ButtonComponent arbol1 = entityArbol1.getComponent(ButtonComponent.class);
+		//Auto roto 1 
+		final Entity entityAutoroto = rootItem.getChild("autoroto").getEntity();
+		ButtonComponent autoroto = entityAutoroto.getComponent(ButtonComponent.class);
 		
-		arbol1.addListener(new ButtonComponent.ButtonListener() {
+		autoroto.addListener(new ButtonComponent.ButtonListener() {
 	
 			public void touchUp() {
 
@@ -72,11 +72,34 @@ public class Nivel extends AbstractScreen {
 			}
 
 			public void clicked() {
-				System.out.println("DESTROY");
-				MainItemComponent main = entityArbol1.getComponent(MainItemComponent.class);
+				//System.out.println("DESTROY");
+				MainItemComponent main = entityAutoroto.getComponent(MainItemComponent.class);
 				main.visible = false;
 			}
 		});
+		
+		//Pozo de agua
+		final Entity entityPozodeagua = rootItem.getChild("pozodeagua").getEntity();
+		ButtonComponent pozodeagua = entityPozodeagua.getComponent(ButtonComponent.class);
+		
+		pozodeagua.addListener(new ButtonComponent.ButtonListener() {
+	
+			public void touchUp() {
+
+			}
+
+			public void touchDown() {
+				
+			}
+
+			public void clicked() {
+				//System.out.println("DESTROY");
+				MainItemComponent main = entityPozodeagua.getComponent(MainItemComponent.class);
+				main.visible = false;
+			}
+		});
+		
+		
 		
 		
 
