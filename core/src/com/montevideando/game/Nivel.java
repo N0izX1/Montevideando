@@ -284,7 +284,7 @@ public class Nivel extends AbstractScreen {
 
 	@Override
 	public void dispose() {
-		marcadorpuntos.dispose();
+		//marcadorpuntos.dispose();
 	}
 
 	@Override
