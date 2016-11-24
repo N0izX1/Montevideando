@@ -14,11 +14,11 @@ import com.uwsoft.editor.renderer.utils.ItemWrapper;
 
 public class Nivel extends AbstractScreen {
 	
-	//private SpriteBatch batch;
+
 	private Viewport viewport;
 	private Camera camera;
 	private ItemWrapper rootItem;
-	//private Button marcadorpuntos;
+
 	ItemWrapper root;
 	int y = 0;
 	int puntos = 0;
@@ -31,7 +31,7 @@ public class Nivel extends AbstractScreen {
 		root = new ItemWrapper(ScreenManager.getInstance().getSceneLoader().getRoot());
 		music.setLooping(true);
 		music.play();
-		//marcadorpuntos = new Puntos(0, 100,"puntos.png");
+		
 		rootItem = new ItemWrapper(ScreenManager.getInstance().getSceneLoader().getRoot());
 		
 		
@@ -56,6 +56,48 @@ public class Nivel extends AbstractScreen {
 			public void clicked() {
 				puntos++;
 				MainItemComponent main = entityBasura1.getComponent(MainItemComponent.class);
+				main.visible = false;
+			}
+		});
+		
+		//Basura 2
+		final Entity entityBasura2 = rootItem.getChild("basura2").getEntity();
+		ButtonComponent basura2 = entityBasura2.getComponent(ButtonComponent.class);
+		
+		basura2.addListener(new ButtonComponent.ButtonListener() {
+	
+			public void touchUp() {
+
+			}
+
+			public void touchDown() {
+				
+			}
+
+			public void clicked() {
+				puntos++;
+				MainItemComponent main = entityBasura2.getComponent(MainItemComponent.class);
+				main.visible = false;
+			}
+		});
+		
+		//Basura 3
+		final Entity entityBasura3 = rootItem.getChild("basura3").getEntity();
+		ButtonComponent basura3 = entityBasura3.getComponent(ButtonComponent.class);
+		
+		basura3.addListener(new ButtonComponent.ButtonListener() {
+	
+			public void touchUp() {
+
+			}
+
+			public void touchDown() {
+				
+			}
+
+			public void clicked() {
+				puntos++;
+				MainItemComponent main = entityBasura3.getComponent(MainItemComponent.class);
 				main.visible = false;
 			}
 		});
@@ -102,6 +144,27 @@ public class Nivel extends AbstractScreen {
 			}
 		});
 		
+		//Auto roto 3
+				final Entity entityAutoroto3 = rootItem.getChild("autoroto3").getEntity();
+				ButtonComponent autoroto3 = entityAutoroto3.getComponent(ButtonComponent.class);
+				
+				autoroto3.addListener(new ButtonComponent.ButtonListener() {
+			
+					public void touchUp() {
+
+					}
+
+					public void touchDown() {
+						
+					}
+
+					public void clicked() {
+						puntos++;
+						MainItemComponent main = entityAutoroto3.getComponent(MainItemComponent.class);
+						main.visible = false;
+					}
+				});
+		
 		//Pozo de agua
 		final Entity entityPozodeagua = rootItem.getChild("pozodeagua").getEntity();
 		ButtonComponent pozodeagua = entityPozodeagua.getComponent(ButtonComponent.class);
@@ -119,6 +182,69 @@ public class Nivel extends AbstractScreen {
 			public void clicked() {
 				puntos++;
 				MainItemComponent main = entityPozodeagua.getComponent(MainItemComponent.class);
+				main.visible = false;
+			}
+		});
+		
+		//Pozo de agua 2
+		final Entity entityPozodeagua2 = rootItem.getChild("pozodeagua2").getEntity();
+		ButtonComponent pozodeagua2 = entityPozodeagua2.getComponent(ButtonComponent.class);
+		
+		pozodeagua2.addListener(new ButtonComponent.ButtonListener() {
+	
+			public void touchUp() {
+
+			}
+
+			public void touchDown() {
+				
+			}
+
+			public void clicked() {
+				puntos++;
+				MainItemComponent main = entityPozodeagua2.getComponent(MainItemComponent.class);
+				main.visible = false;
+			}
+		});
+		
+		//Pozo
+		final Entity entityPozo = rootItem.getChild("pozo").getEntity();
+		ButtonComponent pozo = entityPozo.getComponent(ButtonComponent.class);
+		
+		pozo.addListener(new ButtonComponent.ButtonListener() {
+	
+			public void touchUp() {
+
+			}
+
+			public void touchDown() {
+				
+			}
+
+			public void clicked() {
+				puntos++;
+				MainItemComponent main = entityPozo.getComponent(MainItemComponent.class);
+				main.visible = false;
+			}
+		});
+		
+		//Pozo 2
+		final Entity entityPozo2 = rootItem.getChild("pozo2").getEntity();
+		ButtonComponent pozo2 = entityPozo2.getComponent(ButtonComponent.class);
+		
+		pozo2.addListener(new ButtonComponent.ButtonListener() {
+	
+			public void touchUp() {
+
+			}
+
+			public void touchDown() {
+				
+			}
+
+			public void clicked() {
+				puntos++;
+				MainItemComponent main = entityPozo2.getComponent(MainItemComponent.class);
 				main.visible = false;
 			}
 		});
@@ -230,6 +356,47 @@ public class Nivel extends AbstractScreen {
 			}
 		});
 		
+		//Tronco
+		final Entity entityTronco = rootItem.getChild("tronco").getEntity();
+		ButtonComponent tronco = entityTronco.getComponent(ButtonComponent.class);
+		
+		tronco.addListener(new ButtonComponent.ButtonListener() {
+	
+			public void touchUp() {
+
+			}
+
+			public void touchDown() {
+				
+			}
+
+			public void clicked() {
+				puntos++;
+				MainItemComponent main = entityTronco.getComponent(MainItemComponent.class);
+				main.visible = false;
+			}
+		});
+		
+		//Arbol caido
+		final Entity entityArbolcaido = rootItem.getChild("arbolcaido").getEntity();
+		ButtonComponent arbolcaido = entityArbolcaido.getComponent(ButtonComponent.class);
+		
+		arbolcaido.addListener(new ButtonComponent.ButtonListener() {
+	
+			public void touchUp() {
+
+			}
+
+			public void touchDown() {
+				
+			}
+
+			public void clicked() {
+				puntos++;
+				MainItemComponent main = entityArbolcaido.getComponent(MainItemComponent.class);
+				main.visible = false;
+			}
+		});
 	}
 
 	
@@ -248,8 +415,7 @@ public class Nivel extends AbstractScreen {
 
 			ScreenManager.getInstance().getSceneLoader().getEngine().update(speedCamera);
 			((OrthographicCamera) viewport.getCamera()).position.set(x, y2, 0);
-			//batch.begin();
-			//marcadorpuntos.draw(batch);
+	
 			
 
 //			System.out.println("x: " + x + " y: " + y2);
@@ -284,7 +450,7 @@ public class Nivel extends AbstractScreen {
 
 	@Override
 	public void dispose() {
-		marcadorpuntos.dispose();
+		
 	}
 
 	@Override
