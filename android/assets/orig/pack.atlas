@@ -1,243 +1,243 @@
 
 pack.png
-size: 4096,4096
+size: 4096,2048
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 FondoTile2
   rotate: false
-  xy: 2582, 3050
+  xy: 1035, 49
   size: 601, 1000
   orig: 601, 1000
   offset: 0, 0
   index: -1
 Manzana
   rotate: false
-  xy: 1522, 1772
+  xy: 1980, 677
   size: 11, 19
   orig: 11, 19
   offset: 0, 0
   index: -1
 arbol
   rotate: false
-  xy: 3185, 3699
+  xy: 3638, 1695
   size: 370, 351
   orig: 370, 351
   offset: 0, 0
   index: -1
 arbolcaido
   rotate: false
-  xy: 1035, 1208
-  size: 235, 256
-  orig: 235, 256
+  xy: 3236, 1765
+  size: 400, 281
+  orig: 400, 281
   offset: 0, 0
   index: -1
 arboll
   rotate: false
-  xy: 206, 438
+  xy: 1638, 698
   size: 370, 351
   orig: 370, 351
   offset: 0, 0
   index: -1
 auto-amarillo
   rotate: false
-  xy: 1035, 1032
+  xy: 4010, 1872
   size: 80, 174
   orig: 80, 174
   offset: 0, 0
   index: -1
 auto-azul
   rotate: false
-  xy: 2431, 2290
+  xy: 2608, 1366
   size: 85, 172
   orig: 85, 172
   offset: 0, 0
   index: -1
 auto-verde
   rotate: false
-  xy: 3474, 3522
+  xy: 2863, 1512
   size: 79, 175
   orig: 79, 175
   offset: 0, 0
   index: -1
 autoamarillo
   rotate: false
-  xy: 2773, 2542
+  xy: 2695, 1515
   size: 85, 172
   orig: 85, 172
   offset: 0, 0
   index: -1
 autoos
   rotate: false
-  xy: 2, 46
+  xy: 1917, 1303
   size: 202, 743
   orig: 202, 743
   offset: 0, 0
   index: -1
 autorojo
   rotate: false
-  xy: 3033, 2876
+  xy: 2608, 1540
   size: 85, 172
   orig: 85, 172
   offset: 0, 0
   index: -1
 autoroto
   rotate: false
-  xy: 1549, 2053
+  xy: 1035, 1051
   size: 880, 995
   orig: 880, 995
   offset: 0, 0
   index: -1
 baldosarota2
   rotate: false
-  xy: 1549, 3050
+  xy: 2, 44
   size: 1031, 1000
   orig: 1031, 1000
   offset: 0, 0
   index: -1
 baldosarota3
   rotate: false
-  xy: 2, 791
+  xy: 2, 1046
   size: 1031, 1000
   orig: 1031, 1000
   offset: 0, 0
   index: -1
 basura
   rotate: false
-  xy: 3185, 3521
+  xy: 1638, 120
   size: 287, 176
   orig: 287, 176
   offset: 0, 0
   index: -1
 basurero
   rotate: false
-  xy: 1549, 1811
+  xy: 2723, 1806
   size: 511, 240
   orig: 511, 240
   offset: 0, 0
   index: -1
-bolsa
-  rotate: false
-  xy: 2, 1793
-  size: 1545, 2257
-  orig: 1545, 2257
-  offset: 0, 0
-  index: -1
 calle
   rotate: false
-  xy: 2396, 2018
+  xy: 2695, 1480
   size: 33, 33
   orig: 33, 33
   offset: 0, 0
   index: -1
 camceleste
   rotate: false
-  xy: 1272, 1289
+  xy: 4010, 1695
   size: 79, 175
   orig: 79, 175
   offset: 0, 0
   index: -1
 cammarron
   rotate: false
-  xy: 3185, 3344
+  xy: 2782, 1512
   size: 79, 175
   orig: 79, 175
   offset: 0, 0
   index: -1
 cebralong
   rotate: false
-  xy: 3557, 3935
+  xy: 2723, 1689
   size: 282, 115
   orig: 282, 115
   offset: 0, 0
   index: -1
 crucepeatonal
   rotate: false
-  xy: 1035, 1466
+  xy: 2121, 1387
   size: 485, 325
   orig: 485, 325
   offset: 0, 0
   index: -1
 crucepeatonalbig
   rotate: false
-  xy: 206, 371
+  xy: 2121, 1320
   size: 263, 65
   orig: 263, 65
   offset: 0, 0
   index: -1
 discapacitados
   rotate: false
-  xy: 2, 2
+  xy: 3141, 1762
   size: 65, 42
   orig: 65, 42
   offset: 0, 0
   index: -1
 esquinas
   rotate: false
-  xy: 2431, 2716
+  xy: 2121, 1714
   size: 600, 332
   orig: 600, 332
   offset: 0, 0
   index: -1
 lomodeburrookk
   rotate: false
-  xy: 2062, 1905
+  xy: 1638, 298
   size: 332, 146
   orig: 332, 146
   offset: 0, 0
   index: -1
 niidea
   rotate: false
-  xy: 578, 664
+  xy: 3007, 1679
   size: 132, 125
   orig: 132, 125
   offset: 0, 0
   index: -1
 papel
   rotate: false
-  xy: 1549, 1799
+  xy: 2121, 1308
   size: 10, 10
   orig: 10, 10
   offset: 0, 0
   index: -1
 pozo
   rotate: false
-  xy: 2062, 1815
+  xy: 2043, 1213
   size: 73, 88
   orig: 73, 88
   offset: 0, 0
   index: -1
 pozos
   rotate: false
-  xy: 2431, 2464
+  xy: 1638, 446
   size: 340, 250
   orig: 340, 250
   offset: 0, 0
   index: -1
 rect3336
   rotate: false
-  xy: 471, 402
+  xy: 1927, 262
   size: 34, 34
   orig: 34, 34
   offset: 0, 0
   index: -1
 rect3338
   rotate: false
-  xy: 3841, 4018
+  xy: 2386, 1353
   size: 68, 32
   orig: 68, 32
   offset: 0, 0
   index: -1
 small
   rotate: false
-  xy: 206, 253
+  xy: 1638, 2
   size: 65, 116
   orig: 65, 116
   offset: 0, 0
   index: -1
+tronco
+  rotate: false
+  xy: 1917, 1168
+  size: 124, 133
+  orig: 124, 133
+  offset: 0, 0
+  index: -1
 zebra
   rotate: false
-  xy: 3557, 3823
+  xy: 1917, 1056
   size: 115, 110
   orig: 115, 110
   offset: 0, 0
