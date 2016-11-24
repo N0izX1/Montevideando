@@ -100,9 +100,112 @@ public class Nivel extends AbstractScreen {
 		});
 		
 		
+		//Baldosa Rota
+		final Entity entityBaldosarota = rootItem.getChild("baldosa1").getEntity();
+		ButtonComponent baldosarota = entityBaldosarota.getComponent(ButtonComponent.class);
 		
-		
+		baldosarota.addListener(new ButtonComponent.ButtonListener() {
+	
+			public void touchUp() {
 
+			}
+
+			public void touchDown() {
+				
+			}
+
+			public void clicked() {
+				//System.out.println("DESTROY");
+				MainItemComponent main = entityBaldosarota.getComponent(MainItemComponent.class);
+				main.visible = false;
+			}
+		});		
+		
+		
+		//Baldosa Rota 2 
+		final Entity entityBaldosarota2 = rootItem.getChild("baldosa2").getEntity();
+		ButtonComponent baldosarota2 = entityBaldosarota2.getComponent(ButtonComponent.class);
+		
+		baldosarota2.addListener(new ButtonComponent.ButtonListener() {
+	
+			public void touchUp() {
+
+			}
+
+			public void touchDown() {
+				
+			}
+
+			public void clicked() {
+				//System.out.println("DESTROY");
+				MainItemComponent main = entityBaldosarota2.getComponent(MainItemComponent.class);
+				main.visible = false;
+			}
+		});
+
+		//Baldosa Rota 3
+		final Entity entityBaldosarota3 = rootItem.getChild("baldosa3").getEntity();
+		ButtonComponent baldosarota3 = entityBaldosarota3.getComponent(ButtonComponent.class);
+		
+		baldosarota3.addListener(new ButtonComponent.ButtonListener() {
+	
+			public void touchUp() {
+
+			}
+
+			public void touchDown() {
+				
+			}
+
+			public void clicked() {
+				//System.out.println("DESTROY");
+				MainItemComponent main = entityBaldosarota3.getComponent(MainItemComponent.class);
+				main.visible = false;
+			}
+		});
+
+		//Baldosa Rota 4
+		final Entity entityBaldosarota4 = rootItem.getChild("baldosa4").getEntity();
+		ButtonComponent baldosarota4 = entityBaldosarota4.getComponent(ButtonComponent.class);
+		
+		baldosarota4.addListener(new ButtonComponent.ButtonListener() {
+	
+			public void touchUp() {
+
+			}
+
+			public void touchDown() {
+				
+			}
+
+			public void clicked() {
+				//System.out.println("DESTROY");
+				MainItemComponent main = entityBaldosarota4.getComponent(MainItemComponent.class);
+				main.visible = false;
+			}
+		});
+
+		//Baldosa Rota 5
+		final Entity entityBaldosarota5 = rootItem.getChild("baldosa5").getEntity();
+		ButtonComponent baldosarota5 = entityBaldosarota5.getComponent(ButtonComponent.class);
+		
+		baldosarota4.addListener(new ButtonComponent.ButtonListener() {
+	
+			public void touchUp() {
+
+			}
+
+			public void touchDown() {
+				
+			}
+
+			public void clicked() {
+				//System.out.println("DESTROY");
+				MainItemComponent main = entityBaldosarota5.getComponent(MainItemComponent.class);
+				main.visible = false;
+			}
+		});
+		
 	}
 
 	
